@@ -1,0 +1,81 @@
+\hypertarget{group__Game}{}\section{Game}
+\label{group__Game}\index{Game@{Game}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgame__t}{game\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Game_gad8e0261f75c7848aefd976b15dd70750}\label{group__Game_gad8e0261f75c7848aefd976b15dd70750}} 
+typedef enum states\+\_\+t {\bfseries State}
+\item 
+\mbox{\Hypertarget{group__Game_ga60bc4fc9f003fda638c2cd77d08f530b}\label{group__Game_ga60bc4fc9f003fda638c2cd77d08f530b}} 
+typedef struct \hyperlink{structgame__t}{game\+\_\+t} {\bfseries Game}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Game_gae4bcd51a032844028300b600d585d021}\label{group__Game_gae4bcd51a032844028300b600d585d021}} 
+enum {\bfseries states\+\_\+t} \{ \newline
+{\bfseries M\+E\+NU}, 
+{\bfseries H\+I\+G\+H\+S\+C\+O\+R\+ES}, 
+{\bfseries P\+L\+A\+Y\+I\+NG}, 
+{\bfseries G\+A\+M\+E\+O\+V\+ER}, 
+\newline
+{\bfseries N\+E\+W\+H\+I\+G\+H\+S\+C\+O\+RE}, 
+{\bfseries E\+X\+IT}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Game_ga510a22fb3bd800dc653c26722e80cb1e}\label{group__Game_ga510a22fb3bd800dc653c26722e80cb1e}} 
+void {\bfseries load\+Font} ()
+\item 
+\mbox{\Hypertarget{group__Game_gae94969e6ac665afe12c03e944665ebbb}\label{group__Game_gae94969e6ac665afe12c03e944665ebbb}} 
+\hyperlink{structgame__t}{Game} {\bfseries game} ()
+\item 
+\mbox{\Hypertarget{group__Game_gaa13653318c21b0e6b86838e6091bfc9a}\label{group__Game_gaa13653318c21b0e6b86838e6091bfc9a}} 
+void {\bfseries draw\+Menu} ()
+\item 
+\mbox{\Hypertarget{group__Game_gac0bfe538bd1a0716693118520fceff6d}\label{group__Game_gac0bfe538bd1a0716693118520fceff6d}} 
+void {\bfseries draw\+High\+Scores} ()
+\item 
+\mbox{\Hypertarget{group__Game_gaeb2c7e9c7d14c9eccb7e624bd9611ef8}\label{group__Game_gaeb2c7e9c7d14c9eccb7e624bd9611ef8}} 
+void {\bfseries draw\+Game\+Over} ()
+\item 
+\mbox{\Hypertarget{group__Game_ga948e36b9a2d94457ba4fe5db60597132}\label{group__Game_ga948e36b9a2d94457ba4fe5db60597132}} 
+void {\bfseries draw\+Game} (\hyperlink{structgame__t}{Game} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__Game_ga9a264889f86e1b2ce50f64cd2a71f62e}\label{group__Game_ga9a264889f86e1b2ce50f64cd2a71f62e}} 
+void {\bfseries react\+To\+Mouse\+Event} (\hyperlink{structgame__t}{Game} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__Game_gaecf7fcfb8c4d859c092b076243144745}\label{group__Game_gaecf7fcfb8c4d859c092b076243144745}} 
+void {\bfseries react\+To\+K\+B\+D\+Event} (\hyperlink{structgame__t}{Game} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__Game_ga6cd9476bb3d97ac3b7e53461070d2c8f}\label{group__Game_ga6cd9476bb3d97ac3b7e53461070d2c8f}} 
+void {\bfseries react\+To\+Timer\+Event} (\hyperlink{structgame__t}{Game} $\ast$g)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Game_ga948d08118db7ff5e7a68a4125acd2c12}\label{group__Game_ga948d08118db7ff5e7a68a4125acd2c12}} 
+xpm\+\_\+image\+\_\+t {\bfseries game\+\_\+t\+::background}
+\item 
+\mbox{\Hypertarget{group__Game_ga395f0736d184a3da9bafe95eaaa10c9e}\label{group__Game_ga395f0736d184a3da9bafe95eaaa10c9e}} 
+State {\bfseries game\+\_\+t\+::state}
+\item 
+\mbox{\Hypertarget{group__Game_ga7ad2b0dafc55e88ba5d32af039b20a0f}\label{group__Game_ga7ad2b0dafc55e88ba5d32af039b20a0f}} 
+\hyperlink{structentity__t}{Entity} {\bfseries game\+\_\+t\+::mouse}
+\item 
+\mbox{\Hypertarget{group__Game_ga1261af6a947b5f4152cd04da265d4038}\label{group__Game_ga1261af6a947b5f4152cd04da265d4038}} 
+\hyperlink{structgamestate__t}{Game\+State} {\bfseries game\+\_\+t\+::gamestate}
+\item 
+\mbox{\Hypertarget{group__Game_gad170d146aef2d44454d1567cd80eb899}\label{group__Game_gad170d146aef2d44454d1567cd80eb899}} 
+\hyperlink{structscore__t}{Score} {\bfseries game\+\_\+t\+::fs}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}

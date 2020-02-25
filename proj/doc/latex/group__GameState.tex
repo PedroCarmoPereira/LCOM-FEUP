@@ -1,0 +1,128 @@
+\hypertarget{group__GameState}{}\section{Game\+State}
+\label{group__GameState}\index{Game\+State@{Game\+State}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structentityVector}{entity\+Vector}
+\item 
+struct \hyperlink{structenemyVector}{enemy\+Vector}
+\item 
+struct \hyperlink{structgamestate__t}{gamestate\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__GameState_ga4b102ada44ccbaedfcee62e5854d0782}\label{group__GameState_ga4b102ada44ccbaedfcee62e5854d0782}} 
+typedef struct \hyperlink{structentityVector}{entity\+Vector} $\ast$ {\bfseries Entity\+Vector}
+\item 
+\mbox{\Hypertarget{group__GameState_gad2cc91ce723e08f2de56f8cce91ceb4b}\label{group__GameState_gad2cc91ce723e08f2de56f8cce91ceb4b}} 
+typedef struct \hyperlink{structenemyVector}{enemy\+Vector} $\ast$ {\bfseries Enemy\+Vector}
+\item 
+\mbox{\Hypertarget{group__GameState_gafffe4f18af78cd785ebfb107bcb88342}\label{group__GameState_gafffe4f18af78cd785ebfb107bcb88342}} 
+typedef struct \hyperlink{structgamestate__t}{gamestate\+\_\+t} {\bfseries Game\+State}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__GameState_ga8cbb1ed53220589341752f92a92280cd}\label{group__GameState_ga8cbb1ed53220589341752f92a92280cd}} 
+void {\bfseries move\+Obstacles} (\hyperlink{structentityVector}{Entity\+Vector} $\ast$v)
+\item 
+\mbox{\Hypertarget{group__GameState_ga2eb8a182e1946bad2dd230c88441fdd3}\label{group__GameState_ga2eb8a182e1946bad2dd230c88441fdd3}} 
+void {\bfseries move\+Lasers} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga4558505eda661a066fe43bdc72a199fc}\label{group__GameState_ga4558505eda661a066fe43bdc72a199fc}} 
+void {\bfseries add\+Obstacle} (\hyperlink{structentityVector}{Entity\+Vector} $\ast$v, \hyperlink{structentity__t}{Entity} $\ast$e)
+\item 
+\mbox{\Hypertarget{group__GameState_gaad7be0558ab6f2c48fde48c031b4be66}\label{group__GameState_gaad7be0558ab6f2c48fde48c031b4be66}} 
+void {\bfseries add\+Enemy} (\hyperlink{structenemyVector}{Enemy\+Vector} $\ast$v, \hyperlink{structenemy__t}{Enemy} $\ast$e)
+\item 
+\mbox{\Hypertarget{group__GameState_gabda123367a94f7f6c55af90c98ff6c30}\label{group__GameState_gabda123367a94f7f6c55af90c98ff6c30}} 
+void {\bfseries free\+Obstacles} (\hyperlink{structentityVector}{Entity\+Vector} $\ast$v)
+\item 
+\mbox{\Hypertarget{group__GameState_ga3dbc1552d6c6c541c29bcb92858f784a}\label{group__GameState_ga3dbc1552d6c6c541c29bcb92858f784a}} 
+int {\bfseries free\+Enemies} (\hyperlink{structenemyVector}{Enemy\+Vector} $\ast$v)
+\item 
+\mbox{\Hypertarget{group__GameState_ga9cfa6a0a9be547acc36e87c3c110d33f}\label{group__GameState_ga9cfa6a0a9be547acc36e87c3c110d33f}} 
+void {\bfseries dmg\+Enemies} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_gaa1c267c797e5839afde5c5981c016804}\label{group__GameState_gaa1c267c797e5839afde5c5981c016804}} 
+void {\bfseries Laser\+Colide} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga97f733aa0eba9c30decd7d674ab00faa}\label{group__GameState_ga97f733aa0eba9c30decd7d674ab00faa}} 
+void {\bfseries generate\+Laser} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g, int mousex, int mousey)
+\item 
+\mbox{\Hypertarget{group__GameState_gae26629d3fa543d71fd403d96d75e676b}\label{group__GameState_gae26629d3fa543d71fd403d96d75e676b}} 
+void {\bfseries enemies\+Fire} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga08df31225cd66f69f46a43f62b43eea8}\label{group__GameState_ga08df31225cd66f69f46a43f62b43eea8}} 
+void {\bfseries generate\+Asteroids} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_gabf522683f3bcbb24fab722651c3787a6}\label{group__GameState_gabf522683f3bcbb24fab722651c3787a6}} 
+void {\bfseries generate\+Enemies} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga739e57d59b88a86b78761e1ae4354a37}\label{group__GameState_ga739e57d59b88a86b78761e1ae4354a37}} 
+void {\bfseries generate\+Boss} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga4d3b62d89c12e174b94d12248afff1ec}\label{group__GameState_ga4d3b62d89c12e174b94d12248afff1ec}} 
+void {\bfseries draw\+Obstacles} (\hyperlink{structentityVector}{Entity\+Vector} v)
+\item 
+\mbox{\Hypertarget{group__GameState_gae1ce0b2c6ceffab8e49822363129b50d}\label{group__GameState_gae1ce0b2c6ceffab8e49822363129b50d}} 
+void {\bfseries draw\+Laser} (\hyperlink{structlaserVector}{Laser\+Vector} v)
+\item 
+\mbox{\Hypertarget{group__GameState_gabc18002f17595749d02f53864e14b3df}\label{group__GameState_gabc18002f17595749d02f53864e14b3df}} 
+void {\bfseries draw\+Enemies} (\hyperlink{structenemyVector}{Enemy\+Vector} v)
+\item 
+\mbox{\Hypertarget{group__GameState_ga880f2f7a30da7564b882081e4a348c76}\label{group__GameState_ga880f2f7a30da7564b882081e4a348c76}} 
+\hyperlink{structgamestate__t}{Game\+State} {\bfseries gamestate} ()
+\item 
+\mbox{\Hypertarget{group__GameState_gaf00fe05010175ac4cf77fefc3ffe73c4}\label{group__GameState_gaf00fe05010175ac4cf77fefc3ffe73c4}} 
+void {\bfseries draw\+GS} (\hyperlink{structgamestate__t}{Game\+State} g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga80c87f2335754f1a0d8ddda56bca59b2}\label{group__GameState_ga80c87f2335754f1a0d8ddda56bca59b2}} 
+bool {\bfseries player\+Crashed} (const \hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\item 
+\mbox{\Hypertarget{group__GameState_ga8fafadb5d34a50da3b0f07f9f9382dfd}\label{group__GameState_ga8fafadb5d34a50da3b0f07f9f9382dfd}} 
+void {\bfseries dmg\+Player} (\hyperlink{structgamestate__t}{Game\+State} $\ast$g)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__GameState_ga93b9644b5267eb790f5f5064ffec6ea7}\label{group__GameState_ga93b9644b5267eb790f5f5064ffec6ea7}} 
+\hyperlink{structentity__t}{Entity} {\bfseries entity\+Vector\+::curr}
+\item 
+\mbox{\Hypertarget{group__GameState_gaa117367bd46937897e54b6db9267690c}\label{group__GameState_gaa117367bd46937897e54b6db9267690c}} 
+struct \hyperlink{structentityVector}{entity\+Vector} $\ast$ {\bfseries entity\+Vector\+::next}
+\item 
+\mbox{\Hypertarget{group__GameState_gabf526bfef7933f4bcd2c63f4d682bf6a}\label{group__GameState_gabf526bfef7933f4bcd2c63f4d682bf6a}} 
+\hyperlink{structenemy__t}{Enemy} {\bfseries enemy\+Vector\+::curr}
+\item 
+\mbox{\Hypertarget{group__GameState_gad5177a584901049a83ccef6a59df6f4f}\label{group__GameState_gad5177a584901049a83ccef6a59df6f4f}} 
+struct \hyperlink{structenemyVector}{enemy\+Vector} $\ast$ {\bfseries enemy\+Vector\+::next}
+\item 
+\mbox{\Hypertarget{group__GameState_gaa5fb4d062e3abeb688a28376a6e5d6be}\label{group__GameState_gaa5fb4d062e3abeb688a28376a6e5d6be}} 
+unsigned {\bfseries gamestate\+\_\+t\+::score}
+\item 
+\mbox{\Hypertarget{group__GameState_gafe71b0ccd4cefe460e7b246e0424b205}\label{group__GameState_gafe71b0ccd4cefe460e7b246e0424b205}} 
+unsigned {\bfseries gamestate\+\_\+t\+::phase}
+\item 
+\mbox{\Hypertarget{group__GameState_ga1f85d395865a1a84da692ce61c3123ed}\label{group__GameState_ga1f85d395865a1a84da692ce61c3123ed}} 
+unsigned {\bfseries gamestate\+\_\+t\+::ek}
+\item 
+\mbox{\Hypertarget{group__GameState_gaef3c5d472ae5e2e78389eca5991e3bd6}\label{group__GameState_gaef3c5d472ae5e2e78389eca5991e3bd6}} 
+\hyperlink{structplayer__t}{Player} {\bfseries gamestate\+\_\+t\+::player}
+\item 
+\mbox{\Hypertarget{group__GameState_gae543438c6ffc4e64005f27ee00023a4d}\label{group__GameState_gae543438c6ffc4e64005f27ee00023a4d}} 
+\hyperlink{structentityVector}{Entity\+Vector} {\bfseries gamestate\+\_\+t\+::obstacles}
+\item 
+\mbox{\Hypertarget{group__GameState_ga2eace96a13a7b977a3ed14e35e203ab6}\label{group__GameState_ga2eace96a13a7b977a3ed14e35e203ab6}} 
+\hyperlink{structenemyVector}{Enemy\+Vector} {\bfseries gamestate\+\_\+t\+::enemies}
+\item 
+\mbox{\Hypertarget{group__GameState_ga8bc74ab7791af253098936ad75f26a9b}\label{group__GameState_ga8bc74ab7791af253098936ad75f26a9b}} 
+\hyperlink{structlaserVector}{Laser\+Vector} {\bfseries gamestate\+\_\+t\+::laser}
+\item 
+\mbox{\Hypertarget{group__GameState_gabb2e716aa5888aa0d282eea59da35247}\label{group__GameState_gabb2e716aa5888aa0d282eea59da35247}} 
+\hyperlink{structlaserVector}{Laser\+Vector} {\bfseries gamestate\+\_\+t\+::enemy\+Fire}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}

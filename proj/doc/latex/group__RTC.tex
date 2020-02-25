@@ -1,0 +1,85 @@
+\hypertarget{group__RTC}{}\section{R\+TC}
+\label{group__RTC}\index{R\+TC@{R\+TC}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structdate}{date}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__RTC_ga4e22feb6ffbc1cda32fadff5c740dc51}\label{group__RTC_ga4e22feb6ffbc1cda32fadff5c740dc51}} 
+\#define {\bfseries R\+T\+C\+\_\+\+I\+RQ}~8
+\item 
+\mbox{\Hypertarget{group__RTC_ga710b98232df2c563009e6f8a6cd18220}\label{group__RTC_ga710b98232df2c563009e6f8a6cd18220}} 
+\#define {\bfseries R\+T\+C\+\_\+\+A\+D\+D\+R\+\_\+\+R\+EG}~0x70
+\item 
+\mbox{\Hypertarget{group__RTC_ga2f258a00c59c3f347c8d2d4a75471ce0}\label{group__RTC_ga2f258a00c59c3f347c8d2d4a75471ce0}} 
+\#define {\bfseries R\+T\+C\+\_\+\+D\+A\+T\+A\+\_\+\+R\+EG}~0x71
+\item 
+\mbox{\Hypertarget{group__RTC_ga9935cde70013bbc215f658cfc078b988}\label{group__RTC_ga9935cde70013bbc215f658cfc078b988}} 
+\#define {\bfseries R\+E\+G\+I\+S\+T\+E\+R\+\_\+B}~11
+\item 
+\mbox{\Hypertarget{group__RTC_ga0b257ecb5a063988dce0560e2b30d7af}\label{group__RTC_ga0b257ecb5a063988dce0560e2b30d7af}} 
+\#define {\bfseries R\+E\+G\+I\+S\+T\+E\+R\+\_\+C}~12
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__RTC_gab8e06a427a2b4ef4f4d0cb455c5af012}\label{group__RTC_gab8e06a427a2b4ef4f4d0cb455c5af012}} 
+typedef struct \hyperlink{structdate}{date} {\bfseries Date}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__RTC_ga9cd331d02770769212ebe28ccf872789}\label{group__RTC_ga9cd331d02770769212ebe28ccf872789}} 
+int {\bfseries rtc\+\_\+subscribe\+\_\+int} (int $\ast$bit\+\_\+no)
+\item 
+\mbox{\Hypertarget{group__RTC_gab8f17bf5280c908c8b199a90fefcc758}\label{group__RTC_gab8f17bf5280c908c8b199a90fefcc758}} 
+int {\bfseries rtc\+\_\+unsubscribe\+\_\+int} ()
+\item 
+\mbox{\Hypertarget{group__RTC_ga8063dcc3f1e95d1f5a2e7d999c64444a}\label{group__RTC_ga8063dcc3f1e95d1f5a2e7d999c64444a}} 
+int {\bfseries rtc\+\_\+enable} ()
+\item 
+\mbox{\Hypertarget{group__RTC_ga4b93d85bfaf9ec3c55a66ba7c454881e}\label{group__RTC_ga4b93d85bfaf9ec3c55a66ba7c454881e}} 
+int {\bfseries rtc\+\_\+disable} ()
+\item 
+\mbox{\Hypertarget{group__RTC_gaf994ea35fce52417240582e0f644aecf}\label{group__RTC_gaf994ea35fce52417240582e0f644aecf}} 
+int {\bfseries convert\+\_\+bcd\+\_\+to\+\_\+int} (unsigned x)
+\item 
+\mbox{\Hypertarget{group__RTC_ga8397d4d0c596d7fe05eeccb0c3862132}\label{group__RTC_ga8397d4d0c596d7fe05eeccb0c3862132}} 
+\hyperlink{structdate}{Date} {\bfseries New\+Date} ()
+\item 
+\mbox{\Hypertarget{group__RTC_gaf45b0afaf42a071caaee55f8d2b4ddb4}\label{group__RTC_gaf45b0afaf42a071caaee55f8d2b4ddb4}} 
+void {\bfseries rtc\+\_\+update} (\hyperlink{structdate}{Date} $\ast$\hyperlink{structdate}{date})
+\item 
+\mbox{\Hypertarget{group__RTC_ga67f5c9efefa63be9626d246609d17383}\label{group__RTC_ga67f5c9efefa63be9626d246609d17383}} 
+void {\bfseries date\+To\+String} (\hyperlink{structdate}{Date} $\ast$d, char $\ast$s)
+\item 
+\mbox{\Hypertarget{group__RTC_ga2dc333527ee558ba03af942d7c6a3f37}\label{group__RTC_ga2dc333527ee558ba03af942d7c6a3f37}} 
+void {\bfseries string\+To\+Date} (\hyperlink{structdate}{Date} $\ast$d, char $\ast$s)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__RTC_ga7eeca50fa6ddacac20476f1db5f0cb15}\label{group__RTC_ga7eeca50fa6ddacac20476f1db5f0cb15}} 
+unsigned {\bfseries date\+::year}
+\item 
+\mbox{\Hypertarget{group__RTC_gaa3b7b0b8825fd09a4d5ba9d3361674c2}\label{group__RTC_gaa3b7b0b8825fd09a4d5ba9d3361674c2}} 
+unsigned {\bfseries date\+::month}
+\item 
+\mbox{\Hypertarget{group__RTC_ga00e866e3d9ad7beba371be78cf1d509a}\label{group__RTC_ga00e866e3d9ad7beba371be78cf1d509a}} 
+unsigned {\bfseries date\+::day}
+\item 
+\mbox{\Hypertarget{group__RTC_gafc4f592b2f1d33a22bd3963f10a2e15a}\label{group__RTC_gafc4f592b2f1d33a22bd3963f10a2e15a}} 
+unsigned {\bfseries date\+::hour}
+\item 
+\mbox{\Hypertarget{group__RTC_gaac77d900f8d7d0c80849c44f8626bc94}\label{group__RTC_gaac77d900f8d7d0c80849c44f8626bc94}} 
+unsigned {\bfseries date\+::minute}
+\item 
+\mbox{\Hypertarget{group__RTC_ga2a3229dea0a9f0322963d229b6575056}\label{group__RTC_ga2a3229dea0a9f0322963d229b6575056}} 
+unsigned {\bfseries date\+::second}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}

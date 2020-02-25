@@ -1,0 +1,81 @@
+\hypertarget{group__Player}{}\section{Player}
+\label{group__Player}\index{Player@{Player}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structdirection__t}{direction\+\_\+t}
+\item 
+struct \hyperlink{structplayer__t}{player\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Player_gaad7bf7c6939293ab41c6adf85d710960}\label{group__Player_gaad7bf7c6939293ab41c6adf85d710960}} 
+typedef struct \hyperlink{structdirection__t}{direction\+\_\+t} {\bfseries Direction}
+\item 
+\mbox{\Hypertarget{group__Player_ga772cf5c64b40acbe1036970bed167ab1}\label{group__Player_ga772cf5c64b40acbe1036970bed167ab1}} 
+typedef struct \hyperlink{structplayer__t}{player\+\_\+t} {\bfseries Player}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Player_gadf49e7db2852982bf2e8d195a444e4cc}\label{group__Player_gadf49e7db2852982bf2e8d195a444e4cc}} 
+\hyperlink{structplayer__t}{Player} {\bfseries player} (int h, int d)
+\item 
+\mbox{\Hypertarget{group__Player_gaa5ed3d2e3149b89a28a1dfb5535a523d}\label{group__Player_gaa5ed3d2e3149b89a28a1dfb5535a523d}} 
+void {\bfseries draw\+Player} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_gab704a9f518038121399257e9ccb01cd0}\label{group__Player_gab704a9f518038121399257e9ccb01cd0}} 
+void {\bfseries move\+Player\+Left} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_ga263088048a7f6d011d68894542814234}\label{group__Player_ga263088048a7f6d011d68894542814234}} 
+void {\bfseries move\+Player\+Right} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_gabd6e71a0eb745aea45a0023d98208bef}\label{group__Player_gabd6e71a0eb745aea45a0023d98208bef}} 
+void {\bfseries move\+Player\+Up} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_ga34b37810fe3089c24a593d4060d7c945}\label{group__Player_ga34b37810fe3089c24a593d4060d7c945}} 
+void {\bfseries move\+Player\+Down} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_gaf6b46fff44ae2863176438595bde8393}\label{group__Player_gaf6b46fff44ae2863176438595bde8393}} 
+void {\bfseries move\+Player} (\hyperlink{structplayer__t}{Player} $\ast$p)
+\item 
+\mbox{\Hypertarget{group__Player_ga62f0d064c2fecbd76d8da5620beebef8}\label{group__Player_ga62f0d064c2fecbd76d8da5620beebef8}} 
+bool {\bfseries alive} (\hyperlink{structplayer__t}{Player} const $\ast$p)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Player_gaf298bdf8fc20041fb83875aeb08f6b02}\label{group__Player_gaf298bdf8fc20041fb83875aeb08f6b02}} 
+bool {\bfseries direction\+\_\+t\+::right}
+\item 
+\mbox{\Hypertarget{group__Player_ga273248d204d7fc6668014b08ca5b63e5}\label{group__Player_ga273248d204d7fc6668014b08ca5b63e5}} 
+bool {\bfseries direction\+\_\+t\+::left}
+\item 
+\mbox{\Hypertarget{group__Player_gaf7e8668939fbfa13a63298685e40efaa}\label{group__Player_gaf7e8668939fbfa13a63298685e40efaa}} 
+bool {\bfseries direction\+\_\+t\+::up}
+\item 
+\mbox{\Hypertarget{group__Player_gaea23977a22aa56664d49cdb5efced083}\label{group__Player_gaea23977a22aa56664d49cdb5efced083}} 
+bool {\bfseries direction\+\_\+t\+::down}
+\item 
+\mbox{\Hypertarget{group__Player_gaa083ac58b52d8f8d75067dad9c09fdbc}\label{group__Player_gaa083ac58b52d8f8d75067dad9c09fdbc}} 
+int {\bfseries player\+\_\+t\+::hp}
+\item 
+\mbox{\Hypertarget{group__Player_gaa6f515056598ec49fc0d8d2f7a1f1b27}\label{group__Player_gaa6f515056598ec49fc0d8d2f7a1f1b27}} 
+int {\bfseries player\+\_\+t\+::dmg}
+\item 
+\mbox{\Hypertarget{group__Player_ga79af67c1f85142728f17192410295f54}\label{group__Player_ga79af67c1f85142728f17192410295f54}} 
+unsigned {\bfseries player\+\_\+t\+::fc}
+\item 
+\mbox{\Hypertarget{group__Player_ga69e12cd3d8f0f8ebda035c5fcfc9cb79}\label{group__Player_ga69e12cd3d8f0f8ebda035c5fcfc9cb79}} 
+bool {\bfseries player\+\_\+t\+::invulnerable}
+\item 
+\mbox{\Hypertarget{group__Player_gabd5335d8984c5ee76c86abe3c62732ea}\label{group__Player_gabd5335d8984c5ee76c86abe3c62732ea}} 
+\hyperlink{structentity__t}{Entity} {\bfseries player\+\_\+t\+::e}
+\item 
+\mbox{\Hypertarget{group__Player_ga8a4b6e662dd82367bb528a5abf92b668}\label{group__Player_ga8a4b6e662dd82367bb528a5abf92b668}} 
+\hyperlink{structdirection__t}{Direction} {\bfseries player\+\_\+t\+::dir}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}

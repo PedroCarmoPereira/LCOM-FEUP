@@ -1,0 +1,22 @@
+\hypertarget{structenemy__t}{}\section{enemy\+\_\+t Struct Reference}
+\label{structenemy__t}\index{enemy\+\_\+t@{enemy\+\_\+t}}
+
+
+Collaboration diagram for enemy\+\_\+t\+:
+% FIG 0
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structentity__t}{Entity} {\bfseries e}
+\item 
+int {\bfseries dmg}
+\item 
+int {\bfseries hp}
+\item 
+int {\bfseries fr}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/pppereira3/\+Desktop/2\+Ano/\+M\+I\+N\+I\+X-\/\+L\+C\+O\+M/shared/proj/src/Enemy.\+h\end{DoxyCompactItemize}

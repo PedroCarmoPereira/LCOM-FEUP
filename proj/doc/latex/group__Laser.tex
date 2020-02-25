@@ -1,0 +1,54 @@
+\hypertarget{group__Laser}{}\section{Laser}
+\label{group__Laser}\index{Laser@{Laser}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structlaser__t}{laser\+\_\+t}
+\item 
+struct \hyperlink{structlaserVector}{laser\+Vector}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Laser_ga7f29f0d59eaa73a537c4730685e2bc8a}\label{group__Laser_ga7f29f0d59eaa73a537c4730685e2bc8a}} 
+typedef struct \hyperlink{structlaser__t}{laser\+\_\+t} {\bfseries Laser}
+\item 
+\mbox{\Hypertarget{group__Laser_gae9278671a0ad106a5bee249187c81aee}\label{group__Laser_gae9278671a0ad106a5bee249187c81aee}} 
+typedef struct \hyperlink{structlaserVector}{laser\+Vector} $\ast$ {\bfseries Laser\+Vector}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Laser_ga1371fbb5806a3e803a5805ede9407400}\label{group__Laser_ga1371fbb5806a3e803a5805ede9407400}} 
+\hyperlink{structlaser__t}{Laser} {\bfseries laser} (int xi, int yi, int xf, int yf, int dmg, bool friendly, float angle)
+\item 
+\mbox{\Hypertarget{group__Laser_gad6901fbda56a888749506b0d41679cbc}\label{group__Laser_gad6901fbda56a888749506b0d41679cbc}} 
+void {\bfseries free\+Lasers} (\hyperlink{structlaserVector}{Laser\+Vector} $\ast$v)
+\item 
+\mbox{\Hypertarget{group__Laser_gada5c9a3a039b17204b14d8d7d40eda3f}\label{group__Laser_gada5c9a3a039b17204b14d8d7d40eda3f}} 
+void {\bfseries add\+Laser} (\hyperlink{structlaserVector}{Laser\+Vector} $\ast$v, \hyperlink{structlaser__t}{Laser} $\ast$l)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Laser_gae947ab2c964d3d265376c2d1c141556a}\label{group__Laser_gae947ab2c964d3d265376c2d1c141556a}} 
+\hyperlink{structentity__t}{Entity} {\bfseries laser\+\_\+t\+::e}
+\item 
+\mbox{\Hypertarget{group__Laser_ga35740790bb9204ac0855fdff09d078fe}\label{group__Laser_ga35740790bb9204ac0855fdff09d078fe}} 
+float {\bfseries laser\+\_\+t\+::angle}
+\item 
+\mbox{\Hypertarget{group__Laser_ga97cba375fb9f86d8e15166a6c84a706c}\label{group__Laser_ga97cba375fb9f86d8e15166a6c84a706c}} 
+int {\bfseries laser\+\_\+t\+::dmg}
+\item 
+\mbox{\Hypertarget{group__Laser_ga72bc0f1ed0a4d512ecf117b59e9ef317}\label{group__Laser_ga72bc0f1ed0a4d512ecf117b59e9ef317}} 
+bool {\bfseries laser\+\_\+t\+::friendly}
+\item 
+\mbox{\Hypertarget{group__Laser_ga87917c74473871371aa7acff1c5abb14}\label{group__Laser_ga87917c74473871371aa7acff1c5abb14}} 
+\hyperlink{structlaser__t}{Laser} {\bfseries laser\+Vector\+::curr}
+\item 
+\mbox{\Hypertarget{group__Laser_ga3aa0639115d63f1d076f463b2511ad10}\label{group__Laser_ga3aa0639115d63f1d076f463b2511ad10}} 
+struct \hyperlink{structlaserVector}{laser\+Vector} $\ast$ {\bfseries laser\+Vector\+::next}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}

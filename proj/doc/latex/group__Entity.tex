@@ -1,0 +1,99 @@
+\hypertarget{group__Entity}{}\section{Entity}
+\label{group__Entity}\index{Entity@{Entity}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structposition__t}{position\+\_\+t}
+\item 
+struct \hyperlink{structentity__t}{entity\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Entity_ga5ce99a044d0f8b560d9ad33c7d017d1b}\label{group__Entity_ga5ce99a044d0f8b560d9ad33c7d017d1b}} 
+typedef struct \hyperlink{structposition__t}{position\+\_\+t} {\bfseries Position}
+\item 
+\mbox{\Hypertarget{group__Entity_ga47e3be68ab09601ff1e54a5ee182e101}\label{group__Entity_ga47e3be68ab09601ff1e54a5ee182e101}} 
+typedef enum entity\+Type {\bfseries Entity\+Type}
+\item 
+\mbox{\Hypertarget{group__Entity_ga3c7a6238d50c1af83f91fd0fa458f260}\label{group__Entity_ga3c7a6238d50c1af83f91fd0fa458f260}} 
+typedef struct \hyperlink{structentity__t}{entity\+\_\+t} {\bfseries Entity}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Entity_gac25bae40f86dbaf62807318d4042d75c}\label{group__Entity_gac25bae40f86dbaf62807318d4042d75c}} 
+enum {\bfseries entity\+Type} \{ \newline
+{\bfseries P\+L\+A\+Y\+ER}, 
+{\bfseries M\+O\+U\+SE}, 
+{\bfseries E\+N\+E\+M\+Y1}, 
+{\bfseries E\+N\+E\+M\+Y2}, 
+\newline
+{\bfseries B\+O\+SS}, 
+{\bfseries O\+B\+S\+T\+A\+C\+LE}, 
+{\bfseries L\+A\+S\+E\+RF}, 
+{\bfseries L\+A\+S\+E\+RE}, 
+\newline
+{\bfseries P\+L\+A\+Y\+B\+U\+T\+T\+ON}, 
+{\bfseries H\+I\+G\+H\+S\+C\+O\+R\+E\+S\+B\+U\+T\+T\+ON}, 
+{\bfseries Q\+U\+I\+T\+B\+U\+T\+T\+ON}, 
+{\bfseries M\+E\+N\+U\+B\+U\+T\+T\+ON}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Entity_gabd866462d1cf1c15cb21f4574bc4cfe8}\label{group__Entity_gabd866462d1cf1c15cb21f4574bc4cfe8}} 
+\hyperlink{structentity__t}{Entity} {\bfseries entity} (Entity\+Type t)
+\item 
+\mbox{\Hypertarget{group__Entity_ga9507e3ef478bf1f94be1cfec14a882a6}\label{group__Entity_ga9507e3ef478bf1f94be1cfec14a882a6}} 
+void {\bfseries setX} (\hyperlink{structentity__t}{Entity} $\ast$e, int nx)
+\item 
+\mbox{\Hypertarget{group__Entity_gaf3d120610bb1bca9494d115375ad2bdb}\label{group__Entity_gaf3d120610bb1bca9494d115375ad2bdb}} 
+void {\bfseries setY} (\hyperlink{structentity__t}{Entity} $\ast$e, int ny)
+\item 
+\mbox{\Hypertarget{group__Entity_gad22faaa5659be76769c4b164262db848}\label{group__Entity_gad22faaa5659be76769c4b164262db848}} 
+void {\bfseries set\+Position} (\hyperlink{structentity__t}{Entity} $\ast$e, int nx, int ny)
+\item 
+\mbox{\Hypertarget{group__Entity_gaa09a9bc2a93955f3c7c228a7cff79038}\label{group__Entity_gaa09a9bc2a93955f3c7c228a7cff79038}} 
+void {\bfseries set\+Speed} (\hyperlink{structentity__t}{Entity} $\ast$e, int8\+\_\+t xs, int8\+\_\+t ys)
+\item 
+\mbox{\Hypertarget{group__Entity_ga63cd51b06338622306ddbe55087ac04f}\label{group__Entity_ga63cd51b06338622306ddbe55087ac04f}} 
+void {\bfseries draw\+Entity} (\hyperlink{structentity__t}{Entity} $\ast$e)
+\item 
+\mbox{\Hypertarget{group__Entity_ga150fb147dbe3e8e338605c60a87cad52}\label{group__Entity_ga150fb147dbe3e8e338605c60a87cad52}} 
+bool {\bfseries colision} (const \hyperlink{structentity__t}{Entity} $\ast$e1, const \hyperlink{structentity__t}{Entity} $\ast$e2)
+\item 
+\mbox{\Hypertarget{group__Entity_gafa4042538d842ec482d954276ac8cf41}\label{group__Entity_gafa4042538d842ec482d954276ac8cf41}} 
+bool {\bfseries is\+Off\+Screen} (\hyperlink{structentity__t}{Entity} e)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{group__Entity_ga6f81865a98e5c5ee33d6bf42dd4efe06}\label{group__Entity_ga6f81865a98e5c5ee33d6bf42dd4efe06}} 
+int {\bfseries position\+\_\+t\+::x}
+\item 
+\mbox{\Hypertarget{group__Entity_gacfe2d471728cfdd56a9f910e4e697a17}\label{group__Entity_gacfe2d471728cfdd56a9f910e4e697a17}} 
+int {\bfseries position\+\_\+t\+::y}
+\item 
+\mbox{\Hypertarget{group__Entity_gaf3535ae8987528139ed018f67e0299c5}\label{group__Entity_gaf3535ae8987528139ed018f67e0299c5}} 
+int8\+\_\+t {\bfseries entity\+\_\+t\+::xspeed}
+\item 
+\mbox{\Hypertarget{group__Entity_gaa85a1163b524fa879b9247bc944a5d3a}\label{group__Entity_gaa85a1163b524fa879b9247bc944a5d3a}} 
+int8\+\_\+t {\bfseries entity\+\_\+t\+::yspeed}
+\item 
+\mbox{\Hypertarget{group__Entity_ga6c65739e5d8b544730bd249d2cafcc7e}\label{group__Entity_ga6c65739e5d8b544730bd249d2cafcc7e}} 
+xpm\+\_\+image\+\_\+t {\bfseries entity\+\_\+t\+::img}
+\item 
+\mbox{\Hypertarget{group__Entity_ga9a3515fb669dd89bb37445903d4d6112}\label{group__Entity_ga9a3515fb669dd89bb37445903d4d6112}} 
+\hyperlink{structposition__t}{Position} {\bfseries entity\+\_\+t\+::p}
+\item 
+\mbox{\Hypertarget{group__Entity_ga1f5add91639af1a6dc1a99b3093db7d1}\label{group__Entity_ga1f5add91639af1a6dc1a99b3093db7d1}} 
+Entity\+Type {\bfseries entity\+\_\+t\+::type}
+\item 
+\mbox{\Hypertarget{group__Entity_ga8105e6e206668a1a7a73358f94faf227}\label{group__Entity_ga8105e6e206668a1a7a73358f94faf227}} 
+float {\bfseries entity\+\_\+t\+::angle}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
